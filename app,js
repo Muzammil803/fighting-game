@@ -1,0 +1,135 @@
+// /////////////////////////////////////////////////////////
+//   PLAYER 01
+/////////////////////////////////////////////////////               // 
+var count = 200;
+window.onkeydown = function(){
+    console.log(event.keyCode)
+var player1 = document.getElementById("player_1")
+if (event.keyCode=== 68){
+    count=count+50
+    // player1.src = "l walk.gif"
+    player1.style.left = count +"px";
+    // setTimeout(function(){
+    //     player1.src = "l1.gif"
+    // },1200)
+}
+
+
+if (event.keyCode=== 65){
+    count=count-50
+    // player1.src = "l walk.gif"
+    player1.style.left = count +"px";
+    // setTimeout(function(){
+    //     player1.src = "l1.gif"
+    // },1200)
+}
+
+if (event.keyCode=== 86){
+    // count=count+50
+    player1.src = "l kick.gif"
+    player1.style.width="270px";
+    player1.style.height="390px";
+    setTimeout(function(){
+        player1.src = "l1.gif"
+        player1.style.height="350px";
+        player1.style.width="170px";
+
+    },1100)
+}
+
+
+if (event.keyCode=== 67){
+    // count=count+50
+    player1.src = "l kick 2.gif"
+    player1.style.width="270px";
+    player1.style.height="300px";
+    setTimeout(function(){
+        player1.src = "l1.gif"
+        player1.style.height="350px";
+        player1.style.width="170px";
+
+    },1100)
+}
+var player2 = document.getElementById("player_2")
+if (event.keyCode=== 37){
+    count=count+50
+    player2.src = "./ezgif.com-gif-maker (1).gif"
+    player2.style.right = count +"px";
+    setTimeout(function(){
+        player2.src = "./ezgif.com-gif-maker.gif"
+    },100)
+}
+
+
+
+if (event.keyCode=== 39){
+    count=count-50
+    player2.src = "./ezgif.com-gif-maker (1).gif"
+    player2.style.right = count +"px";
+    setTimeout(function(){
+        player2.src = "./ezgif.com-gif-maker.gif"
+    },100)
+}
+
+
+
+if (event.keyCode=== 75){
+    // count=count-50
+    player2.src = "./ezgif.com-gif-maker (2).gif"
+    // player2.style.right = count +"px";
+    player2.style.height="450px"
+    player2.style.width="250px"
+    setTimeout(function(){
+        player2.src = "./ezgif.com-gif-maker.gif"
+    player2.style.height="350px"
+    player2.style.width="120px"
+
+
+    },1200)
+}
+
+if (event.keyCode=== 38){
+    // count=count-50
+    player2.src = "./ezgif.com-gif-maker (3).gif"
+    // player2.style.right = count +"px";
+    player2.style.height="500px"
+    player2.style.width="150px"
+    setTimeout(function(){
+        player2.src = "./ezgif.com-gif-maker.gif"
+    player2.style.height="350px"
+    player2.style.width="120px"
+
+
+    },1200)
+}
+
+}
+
+
+// /////////////////////////////////////////////////////////
+                //   PLAYER 02
+//  /////////////////////////////////////////////////////               // 
+//  window.onkeydown = function(){
+//     console.log(event.keyCode)
+// var player2 = document.getElementById("player_2")
+// if (event.keyCode=== 37){
+//     count=count+50
+//     // player1.src = "l walk.gif"
+//     player2.style.right = count +"px";
+//     // setTimeout(function(){
+//     //     player1.src = "l1.gif"
+//     // },1200)
+// }
+
+
+// if (event.keyCode=== 39){
+//     count=count-50
+//     // player1.src = "l walk.gif"
+//     player2.style.right = count +"px";
+//     // setTimeout(function(){
+//     //     player1.src = "l1.gif"
+//     // },1200)
+// }
+
+
+//  }

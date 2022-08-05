@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#main{
+height: 100vh;
+width: 100vw;
+background-image: url(./animated-gifs-of-fighting-game-backgrounds-9.gif);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+object-fit: contain;
+overflow: hidden;
+}
+
+
+#player_1{
+    /* position: relative; */
+    position: absolute;
+   /* overflow: hidden; */
+    left: 200px;
+    bottom: 10px;
+    height: 350px ;
+    width: 120px;
+/* object-fit: contain; */
+}
+   
+
+#player_2{
+    position: absolute;
+    right: 200px;
+    bottom: 20px;
+height: 350px;
+width: 120px;
+
+}
+
+#left{
+    width: 450px;
+    height: 48px;
+    background-color: rgb(231, 4, 53);
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border: 1px solid coral;
+    color: yellow;
+    border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#left>h3{
+    font-weight:900;
+    font-stretch: ultra-expanded;
+    
+}
+#right>h3{
+    font-weight:900;
+    font-stretch: ultra-expanded;
+    
+}
+
+#right{
+    width: 450px;
+    height: 48px;
+    background-color: rgb(231, 4, 53);
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    border: 1px solid coral;
+color: yellow;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.vs{
+position: absolute;
+left:45%;
+top: 20px;
+
+    height: 100px;
+    width: 100px;
+}
